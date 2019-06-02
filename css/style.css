@@ -1,6 +1,10 @@
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 #main {
-  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -12,9 +16,11 @@
 #img-div {
   height:auto;
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 0px;
+  margin-right: 0px;
   text-align: center;
+  background-color: #d3d3d3;
+  padding: 10px;
 }
 
 #image {
@@ -28,4 +34,16 @@
 
 #tribute-info{
   text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
+
+#tribute-info ul{
+    text-align: left;
+  }
+
+  #tribute-info ul li{
+    margin-top: 10px;
+  }
