@@ -1,4 +1,5 @@
 
+
 body {
     padding: 0px;
     margin: 0px;
@@ -23,14 +24,6 @@ body {
   padding: 10px;
 }
 
-#image {
-    max-width:80%;
-    height:auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-}
 
 #tribute-info{
   text-align: center;
@@ -46,4 +39,37 @@ body {
 
   #tribute-info ul li{
     margin-top: 10px;
+  }
+
+
+
+  @media (max-width: 568px){
+    #image {
+        display: none;
+    }
+
+    #image2 {
+        max-width:80%;
+        height:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+  }
+
+  @media (min-width: 569px){
+    #image {
+        max-width:80%;
+        height:auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
+    #image2 {
+        display: none;
+    }
+
   }
